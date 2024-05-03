@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "ee4f64bd96d2b482",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ff3324572ec639d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71606e61b4b196d5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8f9f076565c8bbf1",
+    "type": "split",
+    "children": [
+      {
+        "id": "37a368bbe7e0c213",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "34e24e2e760baa41",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "470a22726286b82e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "92854a4afa7f99de",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "35b0592153bebde5",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4e3e874a3238296",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4084fccbe9037682",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c16cad655d02ae02",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "02be53230121a19f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "45335807e8b5094b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "71606e61b4b196d5",
+  "lastOpenFiles": [
+    "GitHub and Git/Git.md",
+    "C/Types, Operators and Expressions.md",
+    "C/Structures.md",
+    "C/Starting with C.md",
+    "C/Preprocessors.md",
+    "C/Pointers and Arrays.md",
+    "C/Motivation.md",
+    "C/Malloc.md",
+    "C/Functions in stdio.md",
+    "DCC-MG/Sorting.md",
+    "DCC-MG/Lab assignment 3.md",
+    "Data-Mayank Singh/Spreadsheets.md",
+    "Data-Mayank Singh/Flask, Jinja, HTMl.md",
+    "GitHub and Git/Git_delta.md",
+    "General notes/Probability assignment 10.md",
+    "General notes/Note 1.md",
+    "General notes/Final Speech.md",
+    "General notes/CNC Lathe.md",
+    "General notes/intro to English.md",
+    "Python/Flask.md",
+    "All in one.md",
+    "React/React.md",
+    "Python/Web Scrapping.md",
+    "git-cheat-sheet-education.pdf",
+    "README.md",
+    "Untitled.md",
+    "Linux/Windows password.md",
+    "React",
+    "Python",
+    "Life",
+    "SQL",
+    "Kernel",
+    "Data-Mayank Singh",
+    "Machine Learning",
+    "Image Handling",
+    "Linux",
+    "Untitled.canvas"
+  ]
+}
