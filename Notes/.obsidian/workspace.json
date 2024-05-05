@@ -11,8 +11,12 @@
             "id": "71606e61b4b196d5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "TheCProgrammingLanguage/Chapter4.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "TheCProgrammingLanguage/Chapter4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "TheCProgrammingLanguage/Chapter4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "TheCProgrammingLanguage/Chapter4.md"
+              }
             }
           }
         ]
@@ -140,33 +148,34 @@
   },
   "active": "71606e61b4b196d5",
   "lastOpenFiles": [
+    "TheCProgrammingLanguage/Preprocessors.md",
+    "TheCProgrammingLanguage/Chapter4.md",
+    "TheCProgrammingLanguage/Chapter3.md",
+    "TheCProgrammingLanguage/AssociativityTable.png",
+    "TheCProgrammingLanguage/Types, Operators and Expressions.md",
+    "TheCProgrammingLanguage/Chapter2.md",
+    "TheCProgrammingLanguage/Chapter1.md",
+    "TheCProgrammingLanguage/Motivation.md",
+    "TheCProgrammingLanguage/Malloc.md",
+    "TheCProgrammingLanguage/Functions in stdio.md",
+    "TheCProgrammingLanguage/Structures.md",
+    "TheCProgrammingLanguage/Starting with C.md",
+    "TheCProgrammingLanguage/Pointers and Arrays.md",
+    "TheCProgrammingLanguage/AppendixC.md",
+    "TheCProgrammingLanguage/AppendixB.md",
+    "TheCProgrammingLanguage/AppendixA.md",
+    "TheCProgrammingLanguage/Chapter8.md",
+    "TheCProgrammingLanguage/Chapter7.md",
+    "TheCProgrammingLanguage/Chapter6.md",
+    "TheCProgrammingLanguage/Chapter5.md",
+    "TheCProgrammingLanguage",
     "GitHub and Git/Git.md",
     "C/Types, Operators and Expressions.md",
     "C/Structures.md",
     "C/Starting with C.md",
     "C/Preprocessors.md",
     "C/Pointers and Arrays.md",
-    "C/Motivation.md",
-    "C/Malloc.md",
-    "C/Functions in stdio.md",
-    "DCC-MG/Sorting.md",
-    "DCC-MG/Lab assignment 3.md",
-    "Data-Mayank Singh/Spreadsheets.md",
-    "Data-Mayank Singh/Flask, Jinja, HTMl.md",
-    "GitHub and Git/Git_delta.md",
-    "General notes/Probability assignment 10.md",
-    "General notes/Note 1.md",
-    "General notes/Final Speech.md",
-    "General notes/CNC Lathe.md",
-    "General notes/intro to English.md",
-    "Python/Flask.md",
-    "All in one.md",
-    "React/React.md",
-    "Python/Web Scrapping.md",
     "git-cheat-sheet-education.pdf",
-    "README.md",
-    "Untitled.md",
-    "Linux/Windows password.md",
     "React",
     "Python",
     "Life",
@@ -175,7 +184,6 @@
     "Data-Mayank Singh",
     "Machine Learning",
     "Image Handling",
-    "Linux",
     "Untitled.canvas"
   ]
 }
