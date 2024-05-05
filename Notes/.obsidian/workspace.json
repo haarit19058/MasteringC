@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TheCProgrammingLanguage/Chapter4.md",
+                "file": "TheCProgrammingLanguage/Chapter5.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheCProgrammingLanguage/Chapter4.md",
+                "file": "TheCProgrammingLanguage/Chapter5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheCProgrammingLanguage/Chapter4.md",
+                "file": "TheCProgrammingLanguage/Chapter5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheCProgrammingLanguage/Chapter4.md"
+                "file": "TheCProgrammingLanguage/Chapter5.md"
               }
             }
           }
@@ -148,8 +148,13 @@
   },
   "active": "71606e61b4b196d5",
   "lastOpenFiles": [
-    "TheCProgrammingLanguage/Preprocessors.md",
+    "TheCProgrammingLanguage/Chapter8.md",
+    "TheCProgrammingLanguage/Chapter7.md",
+    "TheCProgrammingLanguage/Chapter6.md",
+    "TheCProgrammingLanguage/Chapter5.md",
+    "TheCProgrammingLanguage/Pointers and Arrays.md",
     "TheCProgrammingLanguage/Chapter4.md",
+    "TheCProgrammingLanguage/Preprocessors.md",
     "TheCProgrammingLanguage/Chapter3.md",
     "TheCProgrammingLanguage/AssociativityTable.png",
     "TheCProgrammingLanguage/Types, Operators and Expressions.md",
@@ -160,14 +165,9 @@
     "TheCProgrammingLanguage/Functions in stdio.md",
     "TheCProgrammingLanguage/Structures.md",
     "TheCProgrammingLanguage/Starting with C.md",
-    "TheCProgrammingLanguage/Pointers and Arrays.md",
     "TheCProgrammingLanguage/AppendixC.md",
     "TheCProgrammingLanguage/AppendixB.md",
     "TheCProgrammingLanguage/AppendixA.md",
-    "TheCProgrammingLanguage/Chapter8.md",
-    "TheCProgrammingLanguage/Chapter7.md",
-    "TheCProgrammingLanguage/Chapter6.md",
-    "TheCProgrammingLanguage/Chapter5.md",
     "TheCProgrammingLanguage",
     "GitHub and Git/Git.md",
     "C/Types, Operators and Expressions.md",
