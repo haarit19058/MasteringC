@@ -1,4 +1,4 @@
-- Functions and Program structures
+#  Functions and Program structures
 
 
 common syntax of the functions

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TheCProgrammingLanguage/Chapter5.md",
+                "file": "TheCProgrammingLanguage/Chapter7.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheCProgrammingLanguage/Chapter5.md",
+                "file": "TheCProgrammingLanguage/Chapter7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheCProgrammingLanguage/Chapter5.md",
+                "file": "TheCProgrammingLanguage/Chapter7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheCProgrammingLanguage/Chapter5.md"
+                "file": "TheCProgrammingLanguage/Chapter7.md"
               }
             }
           }
@@ -148,33 +148,35 @@
   },
   "active": "71606e61b4b196d5",
   "lastOpenFiles": [
+    "TheCProgrammingLanguage/Malloc.md",
     "TheCProgrammingLanguage/Chapter8.md",
     "TheCProgrammingLanguage/Chapter7.md",
-    "TheCProgrammingLanguage/Chapter6.md",
     "TheCProgrammingLanguage/Chapter5.md",
-    "TheCProgrammingLanguage/Pointers and Arrays.md",
-    "TheCProgrammingLanguage/Chapter4.md",
-    "TheCProgrammingLanguage/Preprocessors.md",
-    "TheCProgrammingLanguage/Chapter3.md",
-    "TheCProgrammingLanguage/AssociativityTable.png",
-    "TheCProgrammingLanguage/Types, Operators and Expressions.md",
-    "TheCProgrammingLanguage/Chapter2.md",
     "TheCProgrammingLanguage/Chapter1.md",
-    "TheCProgrammingLanguage/Motivation.md",
-    "TheCProgrammingLanguage/Malloc.md",
-    "TheCProgrammingLanguage/Functions in stdio.md",
-    "TheCProgrammingLanguage/Structures.md",
-    "TheCProgrammingLanguage/Starting with C.md",
+    "TheCProgrammingLanguage/Chapter2.md",
+    "TheCProgrammingLanguage/Chapter3.md",
+    "TheCProgrammingLanguage/Chapter4.md",
+    "TheCProgrammingLanguage/Chapter6.md",
     "TheCProgrammingLanguage/AppendixC.md",
     "TheCProgrammingLanguage/AppendixB.md",
     "TheCProgrammingLanguage/AppendixA.md",
+    "DSAwithC++/Learning C++.md",
+    "DSAwithC++",
+    "TheCProgrammingLanguage/Precedence order.md",
+    "Untitled.md",
+    "TheCProgrammingLanguage/Pointers and Arrays.md",
+    "TheCProgrammingLanguage/Preprocessors.md",
+    "TheCProgrammingLanguage/AssociativityTable.png",
+    "TheCProgrammingLanguage/Types, Operators and Expressions.md",
+    "TheCProgrammingLanguage/Motivation.md",
+    "TheCProgrammingLanguage/Functions in stdio.md",
+    "TheCProgrammingLanguage/Structures.md",
+    "TheCProgrammingLanguage/Starting with C.md",
     "TheCProgrammingLanguage",
     "GitHub and Git/Git.md",
     "C/Types, Operators and Expressions.md",
     "C/Structures.md",
     "C/Starting with C.md",
-    "C/Preprocessors.md",
-    "C/Pointers and Arrays.md",
     "git-cheat-sheet-education.pdf",
     "React",
     "Python",
@@ -183,7 +185,6 @@
     "Kernel",
     "Data-Mayank Singh",
     "Machine Learning",
-    "Image Handling",
     "Untitled.canvas"
   ]
 }

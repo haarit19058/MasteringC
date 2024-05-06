@@ -152,6 +152,33 @@ For contrast, here is a version of strcpy with pointers:
 ```
 
 
+- `char *name[]` and `char name[]` are both declarations involving character arrays, but they represent different things:
+
+1. **`char *name[]`**:
+   - This declares an array of pointers to characters.
+   - Each element of the array `name` is a pointer to a character (string).
+   - It's often used to represent an array of strings or a list of strings.
+   - Memory is allocated for the array of pointers, but memory for the strings themselves may need to be allocated separately.
+
+   Example:
+   ```c
+   char *names[] = {"John", "Alice", "Bob"};
+   ```
+   In this example, `names` is an array of pointers to strings. Each element of `names` points to the first character of a string literal.
+
+2. **`char name[]`**:
+   - This declares a character array or a string.
+   - It's used to represent a single string of characters.
+   - Memory is allocated for the string itself, and it's usually initialized with a specific string literal or characters.
+
+   Example:
+   ```c
+   char name[] = "Hello";
+   ```
+   In this example, `name` is a character array initialized with the string "Hello". The size of the array is automatically determined based on the length of the string literal.
+
+In summary, `char *name[]` represents an array of strings, where each element is a pointer to a string, while `char name[]` represents a single string of characters.
+
 
 ## Pointer Arrays and pointers to pointers
 
@@ -211,8 +238,81 @@ For contrast, here is a version of strcpy with pointers:
 ```
 
 
+## Multidimensional Arrays
+
+- If a two-dimensional array is to be passed to a function, the parameter declaration in the function must include the number of columns; the number of rows is irrelevant, since what is passed is, as before, a pointer to an array of rows, where each row is an array of 13 ints. In this particular case, it is a pointer to objects that are arrays of 13 ints. Thus if the array daytab is to be passed to a function f, the declaration of f would be: f(int daytab\[2]\[13]) { ... } It could also be f(int daytab\[]\[13]) { ... } since the number of rows is irrelevant, or it could be f(int (\*daytab)\[13]) { ... }
+- pointers plays their role here as well think like 2d arrays are indirectly array  of two pointers pointing to two different arrays.
 
 
+## Pointers vs Multidimensional Arrays
+
+## Pointers to functions
+- Use to know more
+
+```c
+#include <stdio.h> 
+   #include <string.h> 
+   #define MAXLINES 5000     /* max #lines to be sorted */ 
+   char *lineptr[MAXLINES];  /* pointers to text lines */ 
+   int readlines(char *lineptr[], int nlines); 
+   void writelines(char *lineptr[], int nlines); 
+   void qsort(void *lineptr[], int left, int right, 
+              int (*comp)(void *, void *)); 
+   int numcmp(char *, char *); 
+   /* sort input lines */ 
+   main(int argc, char *argv[]) 
+   { 
+       int nlines;        /* number of input lines read */ 
+       int numeric = 0;   /* 1 if numeric sort */ 
+       if (argc > 1 && strcmp(argv[1], "-n") == 0) 
+           numeric = 1; 
+       if ((nlines = readlines(lineptr, MAXLINES)) >= 0) { 
+           qsort((void**) lineptr, 0, nlines-1, 
+             (int (*)(void*,void*))(numeric ? numcmp : strcmp)); 
+           writelines(lineptr, nlines); 
+107 
+           return 0; 
+       } else { 
+           printf("input too big to sort\n"); 
+           return 1; 
+       } 
+   }
+```
+
+
+- In the call to qsort, strcmp and numcmp are addresses of functions. Since they are known to be functions, the & is not necessary, in the same way that it is not needed before an array name.
+
+## Complicated Declarations
+
+- The syntax is an attempt to make the declaration and the use agree; it works well for simple cases, but it can be confusing for the harder ones, because declarations cannot be read left to right, and because parentheses are over-used. The difference between int \*f(); \* f: function returning pointer to int \*/ and int (\*pf)(); /\* pf: pointer to function returning int \*/ 109 illustrates the problem: * is a prefix operator and it has lower precedence than (), so parentheses are necessary to force the proper association.
+
+```c
+char **argv 
+    argv:  pointer to char 
+int (*daytab)[13] 
+    daytab:  pointer to array[13] of int 
+int *daytab[13] 
+    daytab:  array[13] of pointer to int 
+void *comp() 
+    comp: function returning pointer to void 
+void (*comp)() 
+    comp: pointer to function returning void 
+char (*(*x())[])() 
+    x: function returning pointer to array[] of 
+    pointer to function returning char 
+char (*(*x[3])())[5] 
+    x: array[3] of pointer to function returning 
+    pointer to array[5] of char 
+```
+
+
+
+# Commandline Arguments
+
+- When main is called, it is called with two arguments. The first (conventionally called argc, for argument count) is the number of command-line arguments the program was invoked with; the second (argv, for argument vector) is a pointer to an array of character strings that contain the arguments, one per string. We customarily use multiple levels of pointers to manipulate these character strings.
+- When main is called, it is called with two arguments. The first (conventionally called argc, for argument count) is the number of command-line arguments the program was invoked with; the second (argv, for argument vector) is a pointer to an array of character strings that contain the arguments, one per string. We customarily use multiple levels of pointers to manipulate these character strings.
+- ***See it thoroughly after learning all the concepts.***
+- Very important for developing commandline softs
 
 
 

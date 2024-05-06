@@ -40,3 +40,110 @@ Certainly! Here are concise summaries for your notes:
      ```
 
 Note: Dynamic memory allocation with `malloc` is preferred for flexibility in array size and when the size is not known at compile-time. Always free the allocated memory using `free` to prevent memory leaks.
+
+
+
+
+
+
+
+
+Certainly! Here are some common use cases for `malloc()` and `free()`:
+
+### 1. Dynamic Allocation of Single Variable:
+
+```c
+int *ptr;
+ptr = (int *)malloc(sizeof(int));
+if (ptr != NULL) {
+    *ptr = 10;
+}
+// Use ptr...
+free(ptr);
+```
+
+### 2. Dynamic Allocation of Arrays:
+
+```c
+int *arr;
+int size = 10;
+arr = (int *)malloc(size * sizeof(int));
+if (arr != NULL) {
+    // Initialize array elements...
+}
+// Use arr...
+free(arr);
+```
+
+### 3. Dynamic Allocation of 2D Arrays:
+
+```c
+int **matrix;
+int rows = 5, cols = 3;
+matrix = (int **)malloc(rows * sizeof(int *));
+if (matrix != NULL) {
+    for (int i = 0; i < rows; i++) {
+        matrix[i] = (int *)malloc(cols * sizeof(int));
+        // Initialize each row...
+    }
+}
+// Use matrix...
+// Free memory for each row
+for (int i = 0; i < rows; i++) {
+    free(matrix[i]);
+}
+free(matrix);
+```
+
+### 4. Dynamic Allocation of Structs:
+
+```c
+typedef struct {
+    int x;
+    int y;
+} Point;
+
+Point *p;
+p = (Point *)malloc(sizeof(Point));
+if (p != NULL) {
+    p->x = 10;
+    p->y = 20;
+}
+// Use p...
+free(p);
+```
+
+### 5. Returning Dynamically Allocated Memory from a Function:
+
+```c
+int *createArray(int size) {
+    int *arr = (int *)malloc(size * sizeof(int));
+    // Initialize arr...
+    return arr;
+}
+
+void destroyArray(int *arr) {
+    free(arr);
+}
+
+int main() {
+    int *arr = createArray(10);
+    // Use arr...
+    destroyArray(arr);
+    return 0;
+}
+```
+
+### 6. Error Handling for `malloc()` Failures:
+
+```c
+int *ptr;
+ptr = (int *)malloc(sizeof(int));
+if (ptr == NULL) {
+    printf("Memory allocation failed\n");
+    exit(1);
+}
+// Continue with program...
+```
+
+Remember to always check the return value of `malloc()` to ensure that memory allocation was successful, and to free dynamically allocated memory using `free()` when it's no longer needed to prevent memory leaks.
