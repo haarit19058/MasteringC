@@ -255,22 +255,280 @@ The standard library provides an input and output routine fgets that is similar 
 
 
 
-## Miscellaneous
+# Miscellaneous
 
-### String Operations
-### Character Class Testing and Conversions
+## String Operations
+We have already mentioned the string functions strlen, strcpy, strcat, and strcmp, found in <string.h>. In the following, s and t are char \*'s, and c and n are ints.  
 
-### Ungetc
+- strcat(s,t)         concatenate t to end of s 
+- strncat(s,t,n)    concatenate n characters of t to end of s 
+- strcmp(s,t)       return negative, zero, or positive for s < t, s == t, s > t 
+- strncmp(s,t,n)  same as strcmp but only in first n characters 
+- strcpy(s,t)        copy t to s 
+- strlen(s)           copy at most n characters of t to s 
+- strncpy(s,t,n)   return length of s 
+- strchr(s,c)        return pointer to first c in s, or NULL if not present 
+- strrchr(s,c)       return pointer to last c in s, or NULL if not present 
 
-### Command Execution
+## Character Class Testing and Conversions
 
-### Storage Management
+Several functions from perform character tests and conversions. In the following, c is an int that can be represented as an unsigned char or EOF. The function returns int.
 
-### Mathematical Functions
+- isalpha(c)             non-zero if c is alphabetic, 0 if not 
+- isupper(c)            non-zero if c is upper case, 0 if not 
+- islower(c)             non-zero if c is lower case, 0 if not 
+- isdigit(c)               non-zero if c is digit, 0 if not 
+- isalnum(c)            non-zero if isalpha(c) or isdigit(c), 0 if not 
+- isspace(c)             non-zero if c is blank, tab, newline, return, formfeed,                                         vertical tab 
+- toupper(c)            return c converted to upper case 
+- tolower(c)            return c converted to lower case 
 
-### Random Number Generation
+## Ungetc
+
+- The standard library provides a rather restricted version of the function ungetch that we wrote in Chapter 4 ; it is called ungetc. int ungetc(int c, FILE \*fp) pushes the character c back onto file fp, and returns either c, or EOF for an error. Only one character of pushback is guaranteed per file. ungetc may be used with any of the input functions like scanf, getc, or getchar.
 
 
+## Command Execution
+The function system(char \*s) executes the command contained in the character string s, then resumes execution of the current program. The contents of s depend strongly on the local operating system. As a trivial example, on UNIX systems, the statement system("date"); causes the program date to be run; it prints the date and time of day on the standard output. system returns a system-dependent integer status from the command executed. In the UNIX system, the status return is the value returned by exit.
+
+## Storage Management
+
+
+
+### Calloc
+
+In C, `calloc()` is a function used to dynamically allocate memory for an array of elements. It stands for "contiguous allocation". It's similar to `malloc()`, but it initializes the allocated memory block to zero. 
+
+The syntax for `calloc()` is:
+
+```c
+void *calloc(size_t num_elements, size_t element_size);
+```
+
+- `num_elements`: Number of elements to allocate memory for.
+- `element_size`: Size of each element in bytes.
+
+`calloc()` returns a pointer to the beginning of the allocated memory block. If the memory allocation fails, it returns NULL.
+
+Here's an example of how you might use `calloc()`:
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int *arr;
+    int num_elements = 5;
+    
+    // Allocate memory for an array of 5 integers
+    arr = (int *)calloc(num_elements, sizeof(int));
+
+    if (arr == NULL) {
+        printf("Memory allocation failed.\n");
+        return 1;
+    }
+
+    // Use the allocated memory
+    for (int i = 0; i < num_elements; i++) {
+        printf("arr[%d] = %d\n", i, arr[i]);
+    }
+
+    // Free the allocated memory when done
+    free(arr);
+
+    return 0;
+}
+```
+
+In this example, `calloc()` allocates memory for an array of 5 integers, initializes it to zero, and then we can use it as needed. Finally, we free the allocated memory using `free()` to avoid memory leaks.
+
+
+
+
+
+
+
+
+Certainly! Here are concise summaries for your notes:
+
+### Using `malloc` in C
+
+- **Dynamic Allocation:** `malloc` is used for dynamic memory allocation in C.
+  
+- **Dynamic Size:** Allows you to allocate memory based on a size that is determined at runtime.
+
+- **Pointer Return:** Returns a pointer to the allocated memory, typically used for representing arrays.
+
+- **Lifetime Control:** Memory persists until explicitly freed with `free`.
+
+- **Responsibility:** Requires manual memory management; you must free the allocated memory when done.
+
+### Alternatives without `malloc`
+
+1. **Static Array:**
+   - Limited by a fixed size determined at compile-time.
+   - Example:
+     ```c
+     int* createArray() {
+         static int newArray[] = {1, 2, 3, 4, 5};
+         return newArray;
+     }
+     ```
+
+2. **Passing Array as Parameter:**
+   - Requires the caller to pre-allocate memory.
+   - Example:
+     ```c
+     void fillArray(int* arr, int size) {
+         // fill arr with values
+     }
+     int main() {
+         int myArray[5];
+         fillArray(myArray, 5);
+         // Now myArray is filled with values
+         return 0;
+     }
+     ```
+
+Note: Dynamic memory allocation with `malloc` is preferred for flexibility in array size and when the size is not known at compile-time. Always free the allocated memory using `free` to prevent memory leaks.
+
+
+
+
+
+
+
+
+Certainly! Here are some common use cases for `malloc()` and `free()`:
+
+### 1. Dynamic Allocation of Single Variable:
+
+```c
+int *ptr;
+ptr = (int *)malloc(sizeof(int));
+if (ptr != NULL) {
+    *ptr = 10;
+}
+// Use ptr...
+free(ptr);
+```
+
+### 2. Dynamic Allocation of Arrays:
+
+```c
+int *arr;
+int size = 10;
+arr = (int *)malloc(size * sizeof(int));
+if (arr != NULL) {
+    // Initialize array elements...
+}
+// Use arr...
+free(arr);
+```
+
+### 3. Dynamic Allocation of 2D Arrays:
+
+```c
+int **matrix;
+int rows = 5, cols = 3;
+matrix = (int **)malloc(rows * sizeof(int *));
+if (matrix != NULL) {
+    for (int i = 0; i < rows; i++) {
+        matrix[i] = (int *)malloc(cols * sizeof(int));
+        // Initialize each row...
+    }
+}
+// Use matrix...
+// Free memory for each row
+for (int i = 0; i < rows; i++) {
+    free(matrix[i]);
+}
+free(matrix);
+```
+
+### 4. Dynamic Allocation of Structs:
+
+```c
+typedef struct {
+    int x;
+    int y;
+} Point;
+
+Point *p;
+p = (Point *)malloc(sizeof(Point));
+if (p != NULL) {
+    p->x = 10;
+    p->y = 20;
+}
+// Use p...
+free(p);
+```
+
+### 5. Returning Dynamically Allocated Memory from a Function:
+
+```c
+int *createArray(int size) {
+    int *arr = (int *)malloc(size * sizeof(int));
+    // Initialize arr...
+    return arr;
+}
+
+void destroyArray(int *arr) {
+    free(arr);
+}
+
+int main() {
+    int *arr = createArray(10);
+    // Use arr...
+    destroyArray(arr);
+    return 0;
+}
+```
+
+### 6. Error Handling for `malloc()` Failures:
+
+```c
+int *ptr;
+ptr = (int *)malloc(sizeof(int));
+if (ptr == NULL) {
+    printf("Memory allocation failed\n");
+    exit(1);
+}
+// Continue with program...
+```
+
+Remember to always check the return value of `malloc()` to ensure that memory allocation was successful, and to free dynamically allocated memory using `free()` when it's no longer needed to prevent memory leaks.
+
+
+
+
+
+
+
+
+## Mathematical Functions
+
+There are more than twenty mathematical functions declared in <math.h>; here are some of the more frequently used. Each takes one or two double arguments and returns a double.  
+
+- sin(x)                       sine of x, x in radians 
+- cos(x)                      cosine of x, x in radians 
+- exp(x)                      exponential function ex 
+- atan2(y,x)                arctangent of y/x, in radians 
+- log(x)                      natural (base e) logarithm of x (x>0) 
+- log10(x)                  common (base 10) logarithm of x (x>0) 
+- pow(x,y)                  x$^y$ 
+- sqrt(x)                     square root of x (x>0) 
+- fabs(x)                    absolute value of x 
+
+
+## Random Number Generation
+
+
+The function rand() computes a sequence of pseudo-random integers in the range zero to RAND_MAX, which is defined in <stdlib.h>. One way to produce random floating-point numbers greater than or equal to zero but less than one is  
+   \#define frand() ((double) rand() / (RAND_MAX+1.0)) 
+
+(If your library already provides a function for floating-point random numbers, it is likely to have better statistical properties than this one.)  The function srand(unsigned) sets the seed for rand. The portable implementation of rand 
+and srand suggested by the standard appears in Section 2.7
 
 
 
