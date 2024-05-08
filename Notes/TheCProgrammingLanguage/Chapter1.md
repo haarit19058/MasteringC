@@ -202,6 +202,59 @@ putchar(c);
 
 ## External Variables and Scopes
 
+- The \`extern\` keyword in C is used to declare a variable or function that is defined in another source file or in the same file but outside of the current scope. Essentially, it tells the compiler that the variable or function exists elsewhere and is not defined in the current scope, and it instructs the compiler not to allocate storage for that variable.
+
+Here's how `extern` works for variables:
+
+1. **Declaration**: When you want to use a variable that is defined in another file or scope, you declare it with the `extern` keyword. This informs the compiler about the existence and type of the variable without allocating storage for it.
+
+    ```c
+    extern int globalVariable;
+    ```
+
+2. **Definition**: In a separate file or in the same file but outside of any function, you define the variable without the `extern` keyword. This actually allocates storage for the variable.
+
+    ```c
+    int globalVariable; // Definition, not extern
+    ```
+
+By separating declaration and definition, you can access the variable from multiple files without causing multiple definitions, which would lead to linker errors.
+
+Here's an example demonstrating the use of `extern`:
+
+File 1 (file1.c):
+```c
+#include <stdio.h>
+
+extern int globalVariable; // Declaration
+
+void function1() {
+    printf("The value of globalVariable from function1: %d\n", globalVariable);
+}
+```
+
+File 2 (file2.c):
+```c
+#include <stdio.h>
+
+int globalVariable = 10; // Definition
+
+extern void function1(); // Declaration of function from file1.c
+
+int main() {
+    function1();
+    printf("The value of globalVariable from main: %d\n", globalVariable);
+    return 0;
+}
+```
+
+In this example:
+
+- `globalVariable` is declared with `extern` in file1.c but defined in file2.c.
+- `function1` is declared with `extern` in file2.c so that it can be used in main.c.
+
+This setup allows sharing of the `globalVariable` and `function1` across files without causing linker errors.
+
 
 
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TheCProgrammingLanguage/Chapter7.md",
+                "file": "TheCProgrammingLanguage/Chapter1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheCProgrammingLanguage/Chapter7.md",
+                "file": "TheCProgrammingLanguage/Chapter1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheCProgrammingLanguage/Chapter7.md",
+                "file": "TheCProgrammingLanguage/Chapter1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheCProgrammingLanguage/Chapter7.md"
+                "file": "TheCProgrammingLanguage/Chapter1.md"
               }
             }
           }
@@ -148,9 +148,10 @@
   },
   "active": "71606e61b4b196d5",
   "lastOpenFiles": [
+    "TheCProgrammingLanguage/All functions given in book.md",
+    "TheCProgrammingLanguage/Chapter7.md",
     "TheCProgrammingLanguage/Chapter8.md",
     "TheCProgrammingLanguage/AssociativityTable.png",
-    "TheCProgrammingLanguage/Chapter7.md",
     "TheCProgrammingLanguage/Malloc.md",
     "TheCProgrammingLanguage/Chapter5.md",
     "TheCProgrammingLanguage/Chapter1.md",
