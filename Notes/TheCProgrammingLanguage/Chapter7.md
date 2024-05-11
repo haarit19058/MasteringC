@@ -1,5 +1,24 @@
 # Input Output
 
+## File Handling using C
+
+
+|Functions|Description|
+|---|---|
+|[fopen()](https://www.geeksforgeeks.org/c-fopen-function-with-examples/)|It is used to create a file or to open a file.|
+|fclose()|It is used to close a file.|
+|[fgets()](https://www.geeksforgeeks.org/fgets-gets-c-language/)|It is used to read a file.|
+|[fprintf()](https://www.geeksforgeeks.org/fprintf-in-c/)|It is used to write blocks of data into a file.|
+|[fscanf()](https://www.geeksforgeeks.org/scanf-and-fscanf-in-c/)|It is used to read blocks of data from a file.|
+|[getc()](https://www.geeksforgeeks.org/difference-getchar-getch-getc-getche/)|It is used to read a single character to a file.|
+|[putc()](https://www.geeksforgeeks.org/c-library-function-putc/)|It is used to write a single character to a file.|
+|[fseek()](https://www.geeksforgeeks.org/fseek-in-c-with-example/)|It is used to set the position of a file pointer to a mentioned location.|
+|[ftell()](https://www.geeksforgeeks.org/ftell-c-example/)|It is used to return the current position of a file pointer.|
+|[rewind()](https://www.geeksforgeeks.org/g-fact-82/)|It is used to set the file pointer to the beginning of a file.|
+|putw()|It is used to write an integer to a file.|
+|getw()|It is used to read an integer from a file.|
+
+
 
 ## Standard Input and Output
 Pipe | and > < operators in terminal can be used along with the c program

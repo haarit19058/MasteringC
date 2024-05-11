@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Standard Libs.md",
+                "file": "TheCProgrammingLanguage/Chapter7.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Standard Libs.md",
+                "file": "TheCProgrammingLanguage/Chapter7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Standard Libs.md",
+                "file": "TheCProgrammingLanguage/Chapter7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Standard Libs.md"
+                "file": "TheCProgrammingLanguage/Chapter7.md"
               }
             }
           }
@@ -161,8 +161,11 @@
   },
   "active": "901ea27c4a1b441f",
   "lastOpenFiles": [
-    "TheCProgrammingLanguage/Functions in stdio.md",
+    "TheCProgrammingLanguage/Chapter6.md",
+    "TheCProgrammingLanguage/Structures.md",
+    "TheCProgrammingLanguage/Types, Operators and Expressions.md",
     "Standard Libs.md",
+    "TheCProgrammingLanguage/Functions in stdio.md",
     "TheCProgrammingLanguage/Chapter8.md",
     "TheCProgrammingLanguage/Chapter7.md",
     "TheCProgrammingLanguage/Motivation.md",
@@ -175,7 +178,6 @@
     "TheCProgrammingLanguage/Malloc.md",
     "TheCProgrammingLanguage/Chapter5.md",
     "TheCProgrammingLanguage/Chapter3.md",
-    "TheCProgrammingLanguage/Chapter6.md",
     "TheCProgrammingLanguage/AppendixC.md",
     "TheCProgrammingLanguage/AppendixB.md",
     "TheCProgrammingLanguage/AppendixA.md",
@@ -184,8 +186,6 @@
     "Untitled.md",
     "TheCProgrammingLanguage/Pointers and Arrays.md",
     "TheCProgrammingLanguage/Preprocessors.md",
-    "TheCProgrammingLanguage/Types, Operators and Expressions.md",
-    "TheCProgrammingLanguage/Structures.md",
     "TheCProgrammingLanguage/Starting with C.md",
     "TheCProgrammingLanguage",
     "GitHub and Git/Git.md",

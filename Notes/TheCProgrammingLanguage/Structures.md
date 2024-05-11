@@ -4,3 +4,9 @@
 
 
 - Struct are basically like classes in python or like objects in javascript to be moe precise.
+
+
+
+
+
+
