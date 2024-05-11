@@ -8,4 +8,44 @@ to the right by n positions.  how to rotate a decimal in binary or any such simi
 in x. Explain why. Use this observation to write a faster version of bitcount.
 
 
+Certainly! Let's illustrate how `x &= (x-1)` effectively deletes the rightmost 1-bit in `x` with an example.
 
+Suppose we have the number `x = 11010100` in binary, which is 212 in decimal. We'll apply `x &= (x-1)` to delete the rightmost 1-bit.
+
+Step 1: Subtract 1 from `x`:
+```
+x      = 11010100 (212 in decimal)
+x - 1  = 11010011 (211 in decimal)
+```
+
+Step 2: Perform bitwise AND between `x` and `(x - 1)`:
+```
+x      = 11010100 (212 in decimal)
+x - 1  = 11010011 (211 in decimal)
+-------------------------------
+x &= (x - 1) = 11010000 (208 in decimal)
+```
+
+As you can see, the rightmost 1-bit in `x` has been deleted, and all the bits to its right are preserved. This is because in binary subtraction, when you subtract 1 from a number, it flips all the bits from the rightmost 1-bit to the least significant bit.
+
+Now, let's repeat the process until `x` becomes zero.
+
+Step 3: Subtract 1 from `x` again:
+```
+x      = 11010000 (208 in decimal)
+x - 1  = 11001111 (207 in decimal)
+```
+
+Step 4: Perform bitwise AND between `x` and `(x - 1)`:
+```
+x      = 11010000 (208 in decimal)
+x - 1  = 11001111 (207 in decimal)
+-------------------------------
+x &= (x - 1) = 11000000 (192 in decimal)
+```
+
+Again, the rightmost 1-bit in `x` has been deleted.
+
+We repeat these steps until `x` becomes zero. The number of iterations corresponds to the number of 1-bits in the original `x`. 
+
+So, for `x = 11010100`, the process would continue until `x` becomes zero, and we would have effectively counted the number of 1-bits in `x`.
