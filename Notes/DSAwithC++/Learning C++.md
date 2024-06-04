@@ -1,6 +1,2 @@
+# Object Oriented Programming
 
-# Writing the first code
-
-```c
-
-```

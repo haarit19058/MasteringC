@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4ff3324572ec639d",
+        "id": "ee441e88c174768c",
         "type": "tabs",
         "children": [
           {
-            "id": "71606e61b4b196d5",
+            "id": "5f6120f270691de9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TheCProgrammingLanguage/Functions in stdio.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "901ea27c4a1b441f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TheCProgrammingLanguage/Chapter7.md",
+                "file": "DSAwithC++/OOPs.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "35b0592153bebde5",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheCProgrammingLanguage/Chapter7.md",
+                "file": "DSAwithC++/OOPs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheCProgrammingLanguage/Chapter7.md",
+                "file": "DSAwithC++/OOPs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheCProgrammingLanguage/Chapter7.md"
+                "file": "DSAwithC++/OOPs.md"
               }
             }
           }
@@ -159,19 +147,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "901ea27c4a1b441f",
+  "active": "5f6120f270691de9",
   "lastOpenFiles": [
+    "TheCProgrammingLanguage/Combined Notes.md",
+    "DSAwithC++/OOPs.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "DSAwithC++/Learning C++.md",
+    "Standard Libs.md",
+    "SOP.md",
+    "TheCProgrammingLanguage/Functions in stdio.md",
+    "TheCProgrammingLanguage/Chapter7.md",
+    "TheCProgrammingLanguage/Chapter1.md",
+    "TheCProgrammingLanguage/Miscellaneous.md",
     "TheCProgrammingLanguage/Chapter6.md",
     "TheCProgrammingLanguage/Structures.md",
     "TheCProgrammingLanguage/Types, Operators and Expressions.md",
-    "Standard Libs.md",
-    "TheCProgrammingLanguage/Functions in stdio.md",
     "TheCProgrammingLanguage/Chapter8.md",
-    "TheCProgrammingLanguage/Chapter7.md",
     "TheCProgrammingLanguage/Motivation.md",
     "TheCProgrammingLanguage/Chapter4.md",
-    "TheCProgrammingLanguage/Chapter1.md",
-    "DSAwithC++/Learning C++.md",
     "TheCProgrammingLanguage/Chapter2.md",
     "TheCProgrammingLanguage/All functions given in book.md",
     "TheCProgrammingLanguage/AssociativityTable.png",
@@ -183,13 +177,7 @@
     "TheCProgrammingLanguage/AppendixA.md",
     "DSAwithC++",
     "TheCProgrammingLanguage/Precedence order.md",
-    "Untitled.md",
-    "TheCProgrammingLanguage/Pointers and Arrays.md",
-    "TheCProgrammingLanguage/Preprocessors.md",
-    "TheCProgrammingLanguage/Starting with C.md",
     "TheCProgrammingLanguage",
-    "GitHub and Git/Git.md",
-    "C/Types, Operators and Expressions.md",
     "git-cheat-sheet-education.pdf",
     "React",
     "Python",
