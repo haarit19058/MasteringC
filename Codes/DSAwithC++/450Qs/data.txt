@@ -1,0 +1,478 @@
+
+
+
+******************************** Andhra Pradesh***********************************
+
+
+                                               0    1        2      3
+0                                          Party  Won  Leading  Total
+1                             Telugu Desam - TDP    5       11     16
+2  Yuvajana Sramika Rythu Congress Party - YSRCP    3        1      4
+3                   Bharatiya Janata Party - BJP    2        1      3
+4                           Janasena Party - JnP    0        2      2
+5                                          Total   10       15     25
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Arunachal Pradesh***********************************
+
+
+                              0    1        2      3
+0                         Party  Won  Leading  Total
+1  Bharatiya Janata Party - BJP    2        0      2
+2                         Total    2        0      2
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Assam***********************************
+
+
+                                       0    1        2      3
+0                                  Party  Won  Leading  Total
+1           Bharatiya Janata Party - BJP    2        7      9
+2         Indian National Congress - INC    0        3      3
+3  United People’s Party, Liberal - UPPL    0        1      1
+4               Asom Gana Parishad - AGP    0        1      1
+5                                  Total    2       12     14
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Bihar***********************************
+
+
+                                                                         0    1        2      3
+0                                                                    Party  Won  Leading  Total
+1                                             Janata Dal  (United) - JD(U)   10        2     12
+2                                             Bharatiya Janata Party - BJP   10        2     12
+3                                   Lok Janshakti Party(Ram Vilas) - LJPRV    3        2      5
+4                                           Indian National Congress - INC    3        0      3
+5                                               Rashtriya Janata Dal - RJD    2        2      4
+6  Communist Party of India  (Marxist-Leninist)  (Liberation) - CPI(ML)(L)    1        1      2
+7                                  Hindustani Awam Morcha (Secular) - HAMS    1        0      1
+8                                                        Independent - IND    1        0      1
+9                                                                    Total   31        9     40
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Goa***********************************
+
+
+                                0    1        2      3
+0                           Party  Won  Leading  Total
+1    Bharatiya Janata Party - BJP    1        0      1
+2  Indian National Congress - INC    1        0      1
+3                           Total    2        0      2
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Gujarat***********************************
+
+
+                                0    1        2      3
+0                           Party  Won  Leading  Total
+1    Bharatiya Janata Party - BJP   25        0     25
+2  Indian National Congress - INC    1        0      1
+3                           Total   26        0     26
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Haryana***********************************
+
+
+                                0    1        2      3
+0                           Party  Won  Leading  Total
+1  Indian National Congress - INC    3        2      5
+2    Bharatiya Janata Party - BJP    3        2      5
+3                           Total    6        4     10
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Himachal Pradesh***********************************
+
+
+                              0    1        2      3
+0                         Party  Won  Leading  Total
+1  Bharatiya Janata Party - BJP    4        0      4
+2                         Total    4        0      4
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Karnataka***********************************
+
+
+                                0    1        2      3
+0                           Party  Won  Leading  Total
+1    Bharatiya Janata Party - BJP   17        0     17
+2  Indian National Congress - INC    9        0      9
+3   Janata Dal  (Secular) - JD(S)    2        0      2
+4                           Total   28        0     28
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Kerala***********************************
+
+
+                                              0    1        2      3
+0                                         Party  Won  Leading  Total
+1                Indian National Congress - INC   13        1     14
+2             Indian Union Muslim League - IUML    2        0      2
+3  Communist Party of India  (Marxist) - CPI(M)    1        0      1
+4                  Bharatiya Janata Party - BJP    1        0      1
+5                         Kerala Congress - KEC    1        0      1
+6           Revolutionary Socialist Party - RSP    1        0      1
+7                                         Total   19        1     20
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Madhya Pradesh***********************************
+
+
+                              0    1        2      3
+0                         Party  Won  Leading  Total
+1  Bharatiya Janata Party - BJP   28        1     29
+2                         Total   28        1     29
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Maharashtra***********************************
+
+
+                                                          0    1        2      3
+0                                                     Party  Won  Leading  Total
+1                              Bharatiya Janata Party - BJP    7        3     10
+2            Shiv Sena (Uddhav Balasaheb Thackrey) - SHSUBT    6        3      9
+3                                           Shiv Sena - SHS    5        2      7
+4                            Indian National Congress - INC    4        9     13
+5  Nationalist Congress Party – Sharadchandra Pawar - NCPSP    1        6      7
+6                          Nationalist Congress Party - NCP    1        0      1
+7                                         Independent - IND    0        1      1
+8                                                     Total   24       24     48
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Manipur***********************************
+
+
+                                0    1        2      3
+0                           Party  Won  Leading  Total
+1  Indian National Congress - INC    2        0      2
+2                           Total    2        0      2
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Meghalaya***********************************
+
+
+                                   0    1        2      3
+0                              Party  Won  Leading  Total
+1  Voice of the People Party - VOTPP    1        0      1
+2     Indian National Congress - INC    1        0      1
+3                              Total    2        0      2
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Mizoram***********************************
+
+
+                               0    1        2      3
+0                          Party  Won  Leading  Total
+1  Zoram People’s Movement - ZPM    1        0      1
+2                          Total    1        0      1
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Nagaland***********************************
+
+
+                                0    1        2      3
+0                           Party  Won  Leading  Total
+1  Indian National Congress - INC    1        0      1
+2                           Total    1        0      1
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Odisha***********************************
+
+
+                                0    1        2      3
+0                           Party  Won  Leading  Total
+1    Bharatiya Janata Party - BJP    9       10     19
+2  Indian National Congress - INC    1        0      1
+3           Biju Janata Dal - BJD    0        1      1
+4                           Total   10       11     21
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Punjab***********************************
+
+
+                                0    1        2      3
+0                           Party  Won  Leading  Total
+1  Indian National Congress - INC    7        0      7
+2          Aam Aadmi Party - AAAP    3        0      3
+3       Shiromani Akali Dal - SAD    1        0      1
+4               Independent - IND    2        0      2
+5                           Total   13        0     13
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Rajasthan***********************************
+
+
+                                              0    1        2      3
+0                                         Party  Won  Leading  Total
+1                  Bharatiya Janata Party - BJP   14        0     14
+2                Indian National Congress - INC    8        0      8
+3  Communist Party of India  (Marxist) - CPI(M)    1        0      1
+4             Rashtriya Loktantrik Party - RLTP    1        0      1
+5             Bharat Adivasi Party - BHRTADVSIP    1        0      1
+6                                         Total   25        0     25
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Sikkim***********************************
+
+
+                                0    1        2      3
+0                           Party  Won  Leading  Total
+1  Sikkim Krantikari Morcha - SKM    1        0      1
+2                           Total    1        0      1
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Tamil Nadu***********************************
+
+
+                                               0    1        2      3
+0                                          Party  Won  Leading  Total
+1                Dravida Munnetra Kazhagam - DMK    8       14     22
+2                 Indian National Congress - INC    3        6      9
+3                 Communist Party of India - CPI    2        0      2
+4   Communist Party of India  (Marxist) - CPI(M)    2        0      2
+5           Viduthalai Chiruthaigal Katchi - VCK    1        1      2
+6  Marumalarchi Dravida Munnetra Kazhagam - MDMK    1        0      1
+7              Indian Union Muslim League - IUML    0        1      1
+8                                          Total   17       22     39
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Tripura***********************************
+
+
+                              0    1        2      3
+0                         Party  Won  Leading  Total
+1  Bharatiya Janata Party - BJP    2        0      2
+2                         Total    2        0      2
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Uttar Pradesh***********************************
+
+
+                                        0    1        2      3
+0                                   Party  Won  Leading  Total
+1                    Samajwadi Party - SP   30        7     37
+2            Bharatiya Janata Party - BJP   28        5     33
+3          Indian National Congress - INC    6        0      6
+4                 Rashtriya Lok Dal - RLD    1        1      2
+5  Aazad Samaj Party (Kanshi Ram) - ASPKR    1        0      1
+6              Apna Dal (Soneylal) - ADAL    1        0      1
+7                                   Total   67       13     80
+
+
+**********************************************************************
+
+
+
+
+
+******************************** West Bengal***********************************
+
+
+                                     0    1        2      3
+0                                Party  Won  Leading  Total
+1  All India Trinamool Congress - AITC   20        9     29
+2         Bharatiya Janata Party - BJP    5        7     12
+3       Indian National Congress - INC    1        0      1
+4                                Total   26       16     42
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Chhattisgarh***********************************
+
+
+                                0    1        2      3
+0                           Party  Won  Leading  Total
+1    Bharatiya Janata Party - BJP    5        5     10
+2  Indian National Congress - INC    0        1      1
+3                           Total    5        6     11
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Jharkhand***********************************
+
+
+                                0    1        2      3
+0                           Party  Won  Leading  Total
+1    Bharatiya Janata Party - BJP    5        3      8
+2    Jharkhand Mukti Morcha - JMM    2        1      3
+3  Indian National Congress - INC    1        1      2
+4              AJSU Party - AJSUP    1        0      1
+5                           Total    9        5     14
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Uttarakhand***********************************
+
+
+                              0    1        2      3
+0                         Party  Won  Leading  Total
+1  Bharatiya Janata Party - BJP    3        2      5
+2                         Total    3        2      5
+
+
+**********************************************************************
+
+
+
+
+
+******************************** Telangana***********************************
+
+
+                                                0    1        2      3
+0                                           Party  Won  Leading  Total
+1                    Bharatiya Janata Party - BJP    8        0      8
+2                  Indian National Congress - INC    6        2      8
+3  All India Majlis-E-Ittehadul Muslimeen - AIMIM    1        0      1
+4                                           Total   15        2     17
+
+
+**********************************************************************
+
+

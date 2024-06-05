@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSAwithC++/OOPs.md",
+                "file": "IICPC/STL in C++ and sorting basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSAwithC++/OOPs.md",
+                "file": "IICPC/STL in C++ and sorting basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSAwithC++/OOPs.md",
+                "file": "IICPC/STL in C++ and sorting basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSAwithC++/OOPs.md"
+                "file": "IICPC/STL in C++ and sorting basics.md"
               }
             }
           }
@@ -149,8 +149,10 @@
   },
   "active": "5f6120f270691de9",
   "lastOpenFiles": [
-    "TheCProgrammingLanguage/Combined Notes.md",
     "DSAwithC++/OOPs.md",
+    "IICPC/STL in C++ and sorting basics.md",
+    "IICPC",
+    "TheCProgrammingLanguage/Combined Notes.md",
     "Untitled 1.md",
     "Untitled.md",
     "DSAwithC++/Learning C++.md",
@@ -176,7 +178,6 @@
     "TheCProgrammingLanguage/AppendixB.md",
     "TheCProgrammingLanguage/AppendixA.md",
     "DSAwithC++",
-    "TheCProgrammingLanguage/Precedence order.md",
     "TheCProgrammingLanguage",
     "git-cheat-sheet-education.pdf",
     "React",
@@ -185,7 +186,6 @@
     "SQL",
     "Kernel",
     "Data-Mayank Singh",
-    "Machine Learning",
     "Untitled.canvas"
   ]
 }
