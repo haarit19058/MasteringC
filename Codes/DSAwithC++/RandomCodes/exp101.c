@@ -8,6 +8,7 @@ void printArr(int arr[],int size){
     printf("\n");
 }
 
+
 int *subArr(int arr[],int size,int *subArr[]){
 
     int index = 0;
@@ -34,6 +35,7 @@ int *subArr(int arr[],int size,int *subArr[]){
 int main(){
     int arr[]={3,2,11,5,1,16,3,7,9,2,10,23,0,1,13};
     int lenArr = sizeof(arr)/sizeof(arr[0]);
+
     int numSubArr = ((lenArr*(lenArr+1))/2);
     int *subArrCollector[numSubArr];
 
