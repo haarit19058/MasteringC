@@ -50,6 +50,18 @@ int getMid(stack<int> &st){
 	}
 }
 
+void reverse(stack<int> &st){
+	if(st.empty()){
+		return;
+	}
+
+	int temp = st.top();
+	st.pop();
+	reverse(st);
+	insertAtBottom(st,temp);
+
+}
+
 int main(){
 
 // 	//creation
@@ -89,13 +101,14 @@ st.push(40);
 st.push(50);
 st.push(60);
 st.push(70);
-insertAtBottom(st,80);
-// cout<<st.pop()<<endl;
-// st.push(10);
+
+// while(!st.empty()){
+// 	cout<<st.top()<<" ";
+// 	st.pop();
+// }
 
 
-// int mid = getMid(st);
-// cout<<"Middle Element"<<mid<<endl;
+reverse(st);
 
 while(!st.empty()){
 	cout<<st.top()<<" ";
